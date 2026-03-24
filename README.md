@@ -41,7 +41,7 @@ motor = MotorBusqueda()
 ```
 ---
 
-## **¿QUÉ SON LOS AGENTES INTELIGENTES Y PORQUE PODRIAN AYUDARTE A SOLUCIONAR PROBLEMAS?
+## **¿QUÉ SON LOS AGENTES INTELIGENTES Y PORQUE PODRIAN AYUDARTE A SOLUCIONAR PROBLEMAS?**
 
 Un Agente es un sistema capaz de recibir percepciones de su entorno mediante sensores y ejecutar acciones sobre ese entorno mediante actuadores.
 
@@ -95,6 +95,7 @@ grafo = {
 motor = MotorBusqueda()
 camino, costo = motor.costoUniforme('Chapingo', ['CDMX'], grafo)
 print(f"Camino más corto: {camino} con costo {costo}")
+```
 
 
 ## Guía de Uso Rápido (Quick Start)
@@ -134,7 +135,6 @@ Este proyecto fue desarrollado en la **Universidad Autónoma Chapingo** para la 
 **Docentes:**
 - Dr. Edgar Ramírez Galeano
 - Dr. Juan Carlos Cruz González
-- Luis Arturo Soriano Aveldaño
 
 **Desarrollador:**
 - Brandon Fabian Vargas Garcia
