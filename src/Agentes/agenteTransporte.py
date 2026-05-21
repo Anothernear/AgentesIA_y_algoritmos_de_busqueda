@@ -17,7 +17,7 @@ from dataclasses import dataclass, field
 from .agenteUtilidad import AgenteUtilidad
 
 # Importar motor de búsqueda de las librerías maduras
-from algoritmosBusqueda.algoritmosBusqueda import MotorBusqueda
+from Unidad1.algoritmosBusqueda.algoritmosBusqueda import MotorBusqueda
 
 
 @dataclass
@@ -75,7 +75,7 @@ class AgenteTransporteChapingo(AgenteUtilidad):
             acciones or ["mover", "recoger", "esperar", "terminar"]
         )
         
-        # Motor de búsqueda de las librerías maduras
+        # Motor de búsqueda de las librerías
         self.motor = MotorBusqueda()
         
         # Estado específico

@@ -4,10 +4,10 @@ Descripción: Implementación de agentes inteligentes para un entorno de aspirad
 Incluye lógicas para agentes reactivos, con estado interno, dirigidos por metas 
 y maximizadores de utilidad.
 """
-from algoritmosBusqueda.algoritmosBusqueda import MotorBusqueda
+from Unidad1.algoritmosBusqueda.algoritmosBusqueda import MotorBusqueda
 
 from Agentes.agentes import Agentes
-from entornoAspiradora import EntornoAspiradora, FuncionPercepcionMundo
+from Unidad1.LIBRERIA.pruebas.entornoAspiradora import EntornoAspiradora, FuncionPercepcionMundo
 
 """
 ==========================================================
